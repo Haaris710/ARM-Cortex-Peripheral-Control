@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+N:\MTE241\Project2\Project2.uvproj
+Project File Date:  05/23/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
+main.c(52): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2176 RO-data=324 RW-data=36 ZI-data=8324  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
+main.c(52): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2180 RO-data=320 RW-data=36 ZI-data=8324  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
+main.c(52): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2180 RO-data=320 RW-data=36 ZI-data=8324  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
+main.c(52): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2180 RO-data=320 RW-data=36 ZI-data=8324  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27): error:  #65: expected a ";"
+main.c(28): error:  #65: expected a ";"
+main.c(29): error:  #65: expected a ";"
+main.c(33): error:  #65: expected a ";"
+main.c(34): error:  #65: expected a ";"
+main.c(35): error:  #65: expected a ";"
+main.c(36): error:  #65: expected a ";"
+main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
+main.c(52): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27): error:  #65: expected a ";"
+main.c(28): error:  #65: expected a ";"
+main.c(29): error:  #65: expected a ";"
+main.c(33): error:  #65: expected a ";"
+main.c(34): error:  #65: expected a ";"
+main.c(35): error:  #65: expected a ";"
+main.c(36): error:  #65: expected a ";"
+main.c(12): warning:  #177-D: variable "write" was declared but never referenced
+main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
+main.c(52): warning:  #1-D: last line of file ends without a newline
+Target not created
