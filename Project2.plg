@@ -3,82 +3,508 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-N:\MTE241\Project2\Project2.uvproj
-Project File Date:  05/23/2018
+N:\mte241\Project2\Project2.uvproj
+Project File Date:  05/26/2018
 
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling main.c...
-main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
-main.c(52): warning:  #1-D: last line of file ends without a newline
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(92): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=2176 RO-data=324 RW-data=36 ZI-data=8324  
-"Project2.axf" - 0 Error(s), 3 Warning(s).
-Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Program Size: Code=2944 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling main.c...
-main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
-main.c(52): warning:  #1-D: last line of file ends without a newline
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(80): warning:  #1-D: last line of file ends without a newline
+main.c(79): warning:  #128-D: loop is not reachable
 linking...
-Program Size: Code=2180 RO-data=320 RW-data=36 ZI-data=8324  
+Program Size: Code=2444 RO-data=276 RW-data=48 ZI-data=8320  
 "Project2.axf" - 0 Error(s), 3 Warning(s).
-Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling main.c...
-main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
-main.c(52): warning:  #1-D: last line of file ends without a newline
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(80): warning:  #1-D: last line of file ends without a newline
+main.c(79): warning:  #128-D: loop is not reachable
 linking...
-Program Size: Code=2180 RO-data=320 RW-data=36 ZI-data=8324  
+Program Size: Code=2460 RO-data=276 RW-data=48 ZI-data=8320  
 "Project2.axf" - 0 Error(s), 3 Warning(s).
-Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling main.c...
-main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
-main.c(52): warning:  #1-D: last line of file ends without a newline
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(78): warning:  #1-D: last line of file ends without a newline
+main.c(77): warning:  #128-D: loop is not reachable
 linking...
-Program Size: Code=2180 RO-data=320 RW-data=36 ZI-data=8324  
+Program Size: Code=2428 RO-data=276 RW-data=48 ZI-data=8320  
 "Project2.axf" - 0 Error(s), 3 Warning(s).
-Load "N:\\MTE241\\Project2\\Project2.AXF" 
+Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling main.c...
-main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(27): error:  #65: expected a ";"
-main.c(28): error:  #65: expected a ";"
-main.c(29): error:  #65: expected a ";"
-main.c(33): error:  #65: expected a ";"
-main.c(34): error:  #65: expected a ";"
-main.c(35): error:  #65: expected a ";"
-main.c(36): error:  #65: expected a ";"
-main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
-main.c(52): warning:  #1-D: last line of file ends without a newline
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(86): warning:  #1-D: last line of file ends without a newline
+main.c(85): warning:  #128-D: loop is not reachable
+linking...
+Program Size: Code=2544 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(19): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(73): warning:  #223-D: function "pritnf" declared implicitly
+main.c(109): warning:  #1-D: last line of file ends without a newline
+main.c(108): warning:  #128-D: loop is not reachable
+linking...
+Project2.axf: Error: L6218E: Undefined symbol pritnf (referred from main.o).
 Target not created
 Build target 'Target 1'
 compiling main.c...
-main.c(15): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(27): error:  #65: expected a ";"
-main.c(28): error:  #65: expected a ";"
-main.c(29): error:  #65: expected a ";"
-main.c(33): error:  #65: expected a ";"
-main.c(34): error:  #65: expected a ";"
-main.c(35): error:  #65: expected a ";"
-main.c(36): error:  #65: expected a ";"
-main.c(12): warning:  #177-D: variable "write" was declared but never referenced
-main.c(13): warning:  #177-D: variable "extract" was declared but never referenced
-main.c(52): warning:  #1-D: last line of file ends without a newline
+main.c(19): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(109): warning:  #1-D: last line of file ends without a newline
+main.c(108): warning:  #128-D: loop is not reachable
+linking...
+Program Size: Code=2704 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(19): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(109): warning:  #1-D: last line of file ends without a newline
+main.c(108): warning:  #128-D: loop is not reachable
+linking...
+Program Size: Code=2704 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(19): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(54): warning:  #550-D: variable "pressed" was set but never used
+main.c(104): warning:  #1-D: last line of file ends without a newline
+main.c(103): warning:  #128-D: loop is not reachable
+linking...
+Program Size: Code=2572 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(98): warning:  #1-D: last line of file ends without a newline
+main.c(97): warning:  #128-D: loop is not reachable
+linking...
+Program Size: Code=2572 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(103): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2572 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(104): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2572 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+linking...
+Program Size: Code=2572 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+linking...
+Program Size: Code=2572 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(104): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2572 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(107): error:  #20: identifier "LPC_ADR" is undefined
+main.c(110): warning:  #61-D: integer operation result is out of range
+main.c(110): error:  #29: expected an expression
+main.c(111): error:  #127: expected a statement
+main.c(140): warning:  #1-D: last line of file ends without a newline
 Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(142): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2620 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(144): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2656 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(142): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2620 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(109): error:  #20: identifier "LPC_ADR" is undefined
+main.c(112): warning:  #61-D: integer operation result is out of range
+main.c(153): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(112): error:  #20: identifier "LPC_ADR" is undefined
+main.c(112): warning:  #61-D: integer operation result is out of range
+main.c(153): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(112): warning:  #61-D: integer operation result is out of range
+main.c(112): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(153): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3144 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(112): warning:  #61-D: integer operation result is out of range
+main.c(112): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(163): warning:  #1-D: last line of file ends without a newline
+main.c(163): error:  #169: expected a declaration
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(112): warning:  #61-D: integer operation result is out of range
+main.c(112): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(162): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3144 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(18): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(112): warning:  #61-D: integer operation result is out of range
+main.c(112): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(162): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3144 RO-data=276 RW-data=48 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #61-D: integer operation result is out of range
+main.c(114): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(130): error:  #92: identifier-list parameters may only be used in a function definition
+main.c(131): error:  #92: identifier-list parameters may only be used in a function definition
+main.c(133): error:  #79: expected a type specifier
+main.c(133): error:  #79: expected a type specifier
+main.c(133): error:  #79: expected a type specifier
+main.c(133): error:  #757: parameter "s" is not a type name
+main.c(182): error:  #268: declaration may not appear after executable statement in block
+main.c(184): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #61-D: integer operation result is out of range
+main.c(114): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(131): error:  #20: identifier "blue" is undefined
+main.c(133): error:  #20: identifier "white" is undefined
+main.c(135): error:  #268: declaration may not appear after executable statement in block
+main.c(135): error:  #79: expected a type specifier
+main.c(135): error:  #79: expected a type specifier
+main.c(135): error:  #79: expected a type specifier
+main.c(135): error:  #757: parameter "s" is not a type name
+main.c(184): error:  #268: declaration may not appear after executable statement in block
+main.c(186): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #61-D: integer operation result is out of range
+main.c(114): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(135): error:  #268: declaration may not appear after executable statement in block
+main.c(135): error:  #79: expected a type specifier
+main.c(135): error:  #79: expected a type specifier
+main.c(135): error:  #79: expected a type specifier
+main.c(135): error:  #757: parameter "s" is not a type name
+main.c(184): error:  #268: declaration may not appear after executable statement in block
+main.c(186): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #61-D: integer operation result is out of range
+main.c(114): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(135): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(184): error:  #268: declaration may not appear after executable statement in block
+main.c(186): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #61-D: integer operation result is out of range
+main.c(114): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(134): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(183): error:  #268: declaration may not appear after executable statement in block
+main.c(185): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #61-D: integer operation result is out of range
+main.c(114): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(134): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(185): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=6180 RO-data=6548 RW-data=56 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #61-D: integer operation result is out of range
+main.c(114): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(135): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(186): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=6188 RO-data=6548 RW-data=56 ZI-data=8320  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(85): error:  #247: function "joyStickRead" has already been defined
+main.c(114): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(147): warning:  #61-D: integer operation result is out of range
+main.c(147): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(168): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(179): error:  #127: expected a statement
+main.c(184): error:  #20: identifier "ledToggle_task" is undefined
+main.c(242): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(85): error:  #247: function "joyStickRead" has already been defined
+main.c(114): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(147): warning:  #61-D: integer operation result is out of range
+main.c(147): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(168): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(185): error:  #20: identifier "joy_task" is undefined
+main.c(186): error:  #20: identifier "ledToggle_task" is undefined
+main.c(244): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(85): error:  #247: function "joyStickRead" has already been defined
+main.c(114): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(147): warning:  #61-D: integer operation result is out of range
+main.c(147): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(168): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(244): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(147): warning:  #61-D: integer operation result is out of range
+main.c(147): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(168): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(255): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=8220 RO-data=6548 RW-data=92 ZI-data=12436  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(147): warning:  #61-D: integer operation result is out of range
+main.c(147): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(168): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(255): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=8220 RO-data=6548 RW-data=92 ZI-data=12436  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(94): error:  #31: expression must have integral type
+main.c(110): error:  #31: expression must have integral type
+main.c(112): error:  #31: expression must have integral type
+main.c(114): error:  #65: expected a ";"
+main.c(115): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(148): warning:  #61-D: integer operation result is out of range
+main.c(148): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(256): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(94): error:  #137: expression must be a modifiable lvalue
+main.c(110): error:  #137: expression must be a modifiable lvalue
+main.c(112): error:  #137: expression must be a modifiable lvalue
+main.c(114): error:  #65: expected a ";"
+main.c(115): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(148): warning:  #61-D: integer operation result is out of range
+main.c(148): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(256): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(110): error:  #137: expression must be a modifiable lvalue
+main.c(112): error:  #137: expression must be a modifiable lvalue
+main.c(114): error:  #65: expected a ";"
+main.c(115): warning:  #940-D: missing return statement at end of non-void function "joyStickRead"
+main.c(148): warning:  #61-D: integer operation result is out of range
+main.c(148): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(256): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #1166-D: returning pointer to local variable
+main.c(148): warning:  #61-D: integer operation result is out of range
+main.c(148): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(256): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=8328 RO-data=6548 RW-data=92 ZI-data=12436  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(114): warning:  #1166-D: returning pointer to local variable
+main.c(148): warning:  #61-D: integer operation result is out of range
+main.c(148): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(256): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=8284 RO-data=6548 RW-data=92 ZI-data=12436  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.

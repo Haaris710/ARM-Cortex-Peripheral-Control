@@ -416,31 +416,6 @@
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
-            <File>
-              <FileName>GLCD_Scroll.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\GLCD_Scroll.c</FilePath>
-            </File>
-            <File>
-              <FileName>GLCD_SPI_LPC1700.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\GLCD_SPI_LPC1700.c</FilePath>
-            </File>
-            <File>
-              <FileName>Retarget.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Retarget.c</FilePath>
-            </File>
-            <File>
-              <FileName>RTX_config.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\RTX_config.c</FilePath>
-            </File>
-            <File>
-              <FileName>uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\uart.c</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>
