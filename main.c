@@ -5,6 +5,27 @@
 #include <string.h>
 #include <RTL.h>
 
+#define BIT0 (0x1)
+#define BIT1 (0x1 << 1)
+#define BIT2 (0x1 << 2)
+#define BIT3 (0x1 << 3)
+#define BIT4 (0x1 << 4)
+#define BIT5 (0x1 << 5)
+#define BIT6 (0x1 << 6)
+#define BIT7 (0x1 << 7)
+#define BIT10 (0x1 << 10)
+#define BIT12 (0x1 << 12)
+#define BIT18 (0x1 << 18)
+#define BIT20 (0x1 << 20)
+#define BIT23 (0x1 << 23)
+#define BIT24 (0x1 << 24)
+#define BIT25 (0x1 << 25)
+#define BIT26 (0x1 << 26)
+#define BIT31 (0x1 << 31)
+
+static uint8_t ledState = 0;
+
+
 //Exercise 1: LEDs
 void ledDisplay(uint8_t num) {
 	//NOTE: Bit shifiting right/left not combined to
@@ -30,24 +51,25 @@ void ledDisplay(uint8_t num) {
 	LPC_GPIO2->FIOCLR |= ALL_LED_GPIO2;
 	
 	//Build buffer for GPIO1
-	buffer |= ((num & 0x80) >> 7) << 28;
-	buffer |= ((num & 0x40) >> 6) << 29;
-	buffer |= ((num & 0x20) >> 5) << 31;
+	buffer |= ((num & BIT7) >> 7) << 28;
+	buffer |= ((num & BIT6) >> 6) << 29;
+	buffer |= ((num & BIT5) >> 5) << 31;
 	
 	//Write to register for GPIO1
 	LPC_GPIO1->FIOSET |= buffer;
 	buffer = 0;
 
 	//Build buffer for GPIO2
-	buffer |= ((num & 0x10) >> 4) << 2;
-	buffer |= (num & 0x08); //(Right shift three, left shift three)
-	buffer |= ((num & 0x04) >> 2) << 4;
-	buffer |= ((num & 0x02) >> 1) << 5;
-	buffer |= (num & 0x01) << 6; 
+	buffer |= ((num & BIT4) >> 4) << 2;
+	buffer |= (num & BIT3); //(Right shift three, left shift three)
+	buffer |= ((num & BIT2) >> 2) << 4;
+	buffer |= ((num & BIT1) >> 1) << 5;
+	buffer |= (num & BIT0) << 6; 
 	
 	//Write to register for GPIO1
 	LPC_GPIO2->FIOSET |= buffer;
 	buffer = 0;
+	ledState = num;
 }
 
 //EXERCISE 2: Joystick
@@ -58,23 +80,23 @@ void joyStickReadToPutty(void) {
 	//Read from GPIO1
 	buffer |= LPC_GPIO1->FIOPIN;
 	
-	if((buffer & 0x00800000) == 0) {
+	if((buffer & BIT23) == 0) {
 		printf("Up");
   }
-	else if((buffer & 0x01000000) == 0) {
+	else if((buffer & BIT24) == 0) {
 		printf("Right");
 	}
-	else if((buffer & 0x02000000) == 0) {
+	else if((buffer & BIT25) == 0) {
 		printf("Down");
 	}
-	else if((buffer & 0x04000000) == 0) {
+	else if((buffer & BIT26) == 0) {
 		printf("Left");
 	}
 	else
 		printf("NO DIR");
 	printf("\r");
 	
-	if((buffer & 0x00100000) == 0)
+	if((buffer & BIT20) == 0)
 		printf("Pressed");
 	else
 		printf("Not Pressed");
@@ -82,47 +104,86 @@ void joyStickReadToPutty(void) {
 	printf("\r\n");
 }
 
-char* joyStickRead(void) {
+void joyStickReadToConsole(void) {
 	//VARIABLES
 	uint32_t buffer = 0;
-	char output[18];
 	
 	//Read from GPIO1
 	buffer |= LPC_GPIO1->FIOPIN;
 	
-	if((buffer & 0x00800000) == 0) {
-		strcat(output, "Up");
+	if((buffer & BIT23) == 0) {
+		printf("Up");
   }
-	else if((buffer & 0x01000000) == 0) {
+	else if((buffer & BIT24) == 0) {
 		printf("Right");
 	}
-	else if((buffer & 0x02000000) == 0) {
+	else if((buffer & BIT25) == 0) {
 		printf("Down");
 	}
-	else if((buffer & 0x04000000) == 0) {
+	else if((buffer & BIT26) == 0) {
 		printf("Left");
 	}
 	else
 		printf("NO DIR");
 	printf("\r");
 	
-	if((buffer & 0x00100000) == 0)
-		strcat(output,"\nPressed");
+	if((buffer & BIT20) == 0)
+		printf("Pressed");
 	else
-		strcat(output,"\nNot Pressed");
+		printf("Not Pressed");
+	printf("\r\r");
+}
+
+uint8_t joyStickRead(void) {
+	//VARIABLES
+	uint32_t buffer = 0;
+	uint8_t output = 0;
+	
+	//Read from GPIO1
+	buffer |= LPC_GPIO1->FIOPIN;
+	
+	if((buffer & BIT23) == 0) { //up
+		output = 0x01;
+  }
+	else if((buffer & BIT24) == 0) { //right
+		output = 0x04;
+	}
+	else if((buffer & BIT25) == 0) { //down
+		output = 0x02;
+	}
+	else if((buffer & BIT26) == 0) { //left
+		output = 0x03;
+	}
+	else
+		output = 0;
+	
+	if((buffer & BIT20) == 0) //pressed
+		output |= (0x01 << 4);
 	
 	return output;
 }
 
-void pushButtonRead(void) {
+void pBtnReadConsole(void) {
 	//VARIABLES
 	uint32_t buffer = 0;
 	
 	//Read from GPIO2
 	buffer |= LPC_GPIO2->FIOPIN;
 	
-	if((buffer & (0x01 << 10)) == 0)
+	if((buffer & BIT10) == 0)
 		printf("Push Button Pressed\r\n");
+}
+
+uint8_t pBtnRead(void) {
+	//VARIABLES
+	uint32_t buffer = 0;
+	
+	//Read from GPIO2
+	buffer |= LPC_GPIO2->FIOPIN;
+	
+	if((buffer & BIT10) == 0)
+		return 1;
+	return 0;
 }
 
 
@@ -131,21 +192,21 @@ void potentiometerRead(void) {
 	//INITIALIZATION
 	uint32_t buffer = 0;
 	
-	//clear bit 18,19
+	//clear bit 18,19 (provided code)
 	LPC_PINCON->PINSEL1 &= ~(0x03 << 18); 
 	//set bit 18
-	LPC_PINCON->PINSEL1 |= (0x01 << 18); 
+	LPC_PINCON->PINSEL1 |= BIT18; 
 	//set bit 12 to apply power
-	LPC_SC->PCONP |= (0x01 << 12);
-	//select AD0.2 pin, ADC clock 25MHz/5, enable ADC
+	LPC_SC->PCONP |= BIT12;
+	//select AD0.2 pin, ADC clock 25MHz/5, enable ADC (provided code)
 	LPC_ADC->ADCR = (1 << 2) | (4 << 8) | (1 << 21);
 	
 	
 	//Start conversion
-	LPC_ADC->ADCR |= (0x01 << 24);
+	LPC_ADC->ADCR |= BIT24;
 	
 	//Wait for conversion to complete
-	while((LPC_ADC->ADGDR & (0x01 << 31)) > 0) {
+	while((LPC_ADC->ADGDR & BIT31) > 0) {
 		printf("Waiting for conversion\r\n");
 	}
 	
@@ -159,32 +220,83 @@ void potentiometerRead(void) {
 	printf("Potentiometer: %d\r\n",buffer);
 }
 
-void lcdDisplay(char *s) {
+void lcdDisplay(char* string, uint8_t line) {
+	GLCD_ClearLn(line,1);
+	GLCD_DisplayString(line,1,1, string);
+}
+
+void lcdInit() {
 	//INITIALIZATION
 	GLCD_Init();
 	GLCD_Clear(Blue);
 	GLCD_SetBackColor(Blue);
 	GLCD_SetTextColor(White);
-	
-	GLCD_DisplayString(1,1,1, s);
+}
+
+
+__task void joy_task(void) {
+	uint8_t state = 0;
+	char* output;
+	lcdInit();
+	while(1) {
+		state = joyStickRead();
+		if((state & 0x07) == 0)
+			output = "NO DIR";
+		else if((state & 0x07) == 0x01)
+			output = "UP";
+		else if((state & 0x07) == 0x02)
+			output = "DOWN";
+		else if((state & 0x07) == 0x03)
+			output = "LEFT";
+		else if((state & 0x07) == 0x04)
+			output = "RIGHT";
+		else output = "void";
+		
+		lcdDisplay(output, 1);
+		
+		if((state & (0x01 << 4)) > 0)
+			output = "PRESSED";
+		else
+			output = "NOT PRESSED";
+		
+		lcdDisplay(output, 2);
+		os_tsk_pass();
+	}
 }
 
 __task void poten_task(void) {
-	while(1)
+	while(1) {
 		potentiometerRead();
+		os_tsk_pass();
+	}
 }
 
-/*
-__task void joy_task(void) {
-	while(1)
-		
+__task void led_task(void) {
+	//Initialize LED to zero
+	ledDisplay(0);
+	ledState = 0;
+	while(1) {
+		//Wait for press and release
+		while(pBtnRead() != 1) {}
+		while(pBtnRead() != 0) {}
+		if(ledState == 1) {
+			ledDisplay(0);
+			ledState = 0;
+		}
+		else {
+			ledDisplay(1);
+			ledState = 1;
+		}
+		os_tsk_pass();
+	}
 }
-*/
 
 __task void init_tasks(void) {
 	os_tsk_create(poten_task,1);
-	//os_tsk_create(joy_task,1);
-	//os_tsk_create(ledToggle_task,1);
+	os_tsk_create(joy_task,1);
+	os_tsk_create(led_task,1);
+	
+	while(1) {}
 }
 
 
@@ -193,10 +305,11 @@ __task void init_tasks(void) {
 int main(void) {
 	SystemInit();
 
-	ledDisplay(123);
+	ledDisplay(0);
 	while(1);
 }
 */
+
 
 /*
 //JOYSTICK TEST
@@ -215,7 +328,7 @@ int main(void) {
 	SystemInit();
 	
 	while(1) {
-		pushButtonRead();
+		pBtnReadConsole();
 	}
 */
 
@@ -229,6 +342,7 @@ int main(void) {
 }
 */
 
+
 /*
 //LCD TEST
 int main(void) {
@@ -239,18 +353,30 @@ int main(void) {
 }
 */
 
-int main(void) {
-	char *string;
-	SystemInit();
-	while(1) {
-		string = joyStickRead();
-		printf("%s\r",string);
-	}
-}
-
 /*
-//TASKS IMPLEMENTATION
 int main(void) {
-	
+	char* string = "hello";
+	SystemInit();
+	joy_task();
+	while(1) {}
 }
 */
+
+
+//TASKS IMPLEMENTATION
+int main(void) {
+	printf("Task Implementation Test");
+	SystemInit();
+	os_sys_init(init_tasks);
+}
+
+
+
+
+
+
+
+
+
+
+
