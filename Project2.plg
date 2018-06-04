@@ -9,386 +9,42 @@ Project File Date:  05/26/2018
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(133): warning:  #1166-D: returning pointer to local variable
-main.c(167): warning:  #61-D: integer operation result is out of range
-main.c(167): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(275): error:  #247: function "main" has already been defined
-main.c(279): warning:  #940-D: missing return statement at end of non-void function "main"
-Target not created
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-_____^
-*** error 56: cannot open file
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(133): warning:  #1166-D: returning pointer to local variable
-main.c(167): warning:  #61-D: integer operation result is out of range
-main.c(167): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8292 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(133): warning:  #1166-D: returning pointer to local variable
-main.c(167): warning:  #61-D: integer operation result is out of range
-main.c(167): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(266): warning:  #550-D: variable "string" was set but never used
-linking...
-Program Size: Code=8296 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 6 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(164): warning:  #61-D: integer operation result is out of range
-main.c(164): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8140 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(164): warning:  #61-D: integer operation result is out of range
-main.c(164): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8140 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(164): warning:  #61-D: integer operation result is out of range
-main.c(164): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8140 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(131): warning:  #223-D: function "prinf" declared implicitly
-main.c(165): warning:  #61-D: integer operation result is out of range
-main.c(165): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(186): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Project2.axf: Error: L6218E: Undefined symbol prinf (referred from main.o).
-Target not created
-Build target 'Target 1'
-linking...
-Project2.axf: Error: L6218E: Undefined symbol prinf (referred from main.o).
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(165): warning:  #61-D: integer operation result is out of range
-main.c(165): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(186): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8116 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(165): warning:  #61-D: integer operation result is out of range
-main.c(165): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(186): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8116 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(149): error:  #20: identifier "otuput" is undefined
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(230): error:  #137: expression must be a modifiable lvalue
-main.c(232): error:  #137: expression must be a modifiable lvalue
-main.c(234): error:  #137: expression must be a modifiable lvalue
-main.c(236): error:  #137: expression must be a modifiable lvalue
-main.c(238): error:  #137: expression must be a modifiable lvalue
-main.c(239): error:  #137: expression must be a modifiable lvalue
-main.c(244): error:  #137: expression must be a modifiable lvalue
-main.c(245): error:  #65: expected a ";"
-main.c(246): error:  #137: expression must be a modifiable lvalue
-main.c(246): error:  #65: expected a ";"
-main.c(317): warning:  #174-D: expression has no effect
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(149): error:  #20: identifier "otuput" is undefined
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(230): error:  #137: expression must be a modifiable lvalue
-main.c(232): error:  #137: expression must be a modifiable lvalue
-main.c(234): error:  #137: expression must be a modifiable lvalue
-main.c(236): error:  #137: expression must be a modifiable lvalue
-main.c(238): error:  #137: expression must be a modifiable lvalue
-main.c(239): error:  #137: expression must be a modifiable lvalue
-main.c(244): error:  #137: expression must be a modifiable lvalue
-main.c(246): error:  #137: expression must be a modifiable lvalue
-main.c(317): warning:  #174-D: expression has no effect
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(149): error:  #20: identifier "otuput" is undefined
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(230): error:  #137: expression must be a modifiable lvalue
-main.c(232): error:  #137: expression must be a modifiable lvalue
-main.c(234): error:  #137: expression must be a modifiable lvalue
-main.c(236): error:  #137: expression must be a modifiable lvalue
-main.c(238): error:  #137: expression must be a modifiable lvalue
-main.c(239): error:  #137: expression must be a modifiable lvalue
-main.c(244): error:  #137: expression must be a modifiable lvalue
-main.c(246): error:  #137: expression must be a modifiable lvalue
-main.c(317): warning:  #174-D: expression has no effect
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(149): error:  #20: identifier "otuput" is undefined
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(230): error:  #137: expression must be a modifiable lvalue
-main.c(232): error:  #137: expression must be a modifiable lvalue
-main.c(234): error:  #137: expression must be a modifiable lvalue
-main.c(236): error:  #137: expression must be a modifiable lvalue
-main.c(238): error:  #137: expression must be a modifiable lvalue
-main.c(239): error:  #137: expression must be a modifiable lvalue
-main.c(244): error:  #137: expression must be a modifiable lvalue
-main.c(246): error:  #137: expression must be a modifiable lvalue
-main.c(317): warning:  #174-D: expression has no effect
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(149): error:  #20: identifier "otuput" is undefined
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(317): warning:  #174-D: expression has no effect
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(317): warning:  #174-D: expression has no effect
-linking...
-Program Size: Code=8348 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8364 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(245): warning:  #111-D: statement is unreachable
-linking...
-Program Size: Code=8328 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(215): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(245): warning:  #111-D: statement is unreachable
-main.c(317): warning:  #177-D: variable "string" was declared but never referenced
-linking...
-Program Size: Code=8312 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 6 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(320): warning:  #177-D: variable "string" was declared but never referenced
-linking...
-Program Size: Code=8364 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(210): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(321): warning:  #177-D: variable "string" was declared but never referenced
-linking...
-Program Size: Code=8372 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(210): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8952 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(210): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(259): error:  #84: invalid combination of type specifiers
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(210): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(259): error:  #84: invalid combination of type specifiers
-Target not created
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(194): warning:  #61-D: integer operation result is out of range
-main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(210): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8372 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=8372 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 0 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(40): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(247): warning:  #61-D: integer operation result is out of range
-main.c(247): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(275): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8372 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(26): warning:  #260-D: explicit type is missing ("int" assumed)
 main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(208): warning:  #61-D: integer operation result is out of range
-main.c(208): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(224): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(26): warning:  #177-D: variable "led" was declared but never referenced
+main.c(209): warning:  #61-D: integer operation result is out of range
+main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
 linking...
-Program Size: Code=8996 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 6 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-main.c(26): warning:  #260-D: explicit type is missing ("int" assumed)
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(208): warning:  #61-D: integer operation result is out of range
-main.c(208): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(224): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(26): warning:  #177-D: variable "ledState" was declared but never referenced
-linking...
-Program Size: Code=8996 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 6 Warning(s).
+Program Size: Code=9172 RO-data=6548 RW-data=100 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
 compiling main.c...
 main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
 main.c(209): warning:  #61-D: integer operation result is out of range
 main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
 main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(26): warning:  #550-D: variable "ledState" was set but never used
-linking...
-Program Size: Code=9004 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
+main.c(353): error:  #165: too few arguments in function call
+Target not created
 Build target 'Target 1'
 compiling main.c...
 main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
 main.c(209): warning:  #61-D: integer operation result is out of range
 main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
 main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(292): error:  #20: identifier "ledToggle_task" is undefined
+main.c(353): error:  #20: identifier "hello" is undefined
+main.c(353): error:  #165: too few arguments in function call
+main.c(349): warning:  #177-D: variable "string" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(209): warning:  #61-D: integer operation result is out of range
+main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(353): error:  #165: too few arguments in function call
 Target not created
 Build target 'Target 1'
 compiling main.c...
@@ -397,7 +53,7 @@ main.c(209): warning:  #61-D: integer operation result is out of range
 main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
 main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
 linking...
-Program Size: Code=9060 RO-data=6548 RW-data=100 ZI-data=12484  
+Program Size: Code=8620 RO-data=6548 RW-data=92 ZI-data=12436  
 "Project2.axf" - 0 Error(s), 4 Warning(s).
 Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
@@ -410,7 +66,7 @@ main.c(209): warning:  #61-D: integer operation result is out of range
 main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
 main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
 linking...
-Program Size: Code=8484 RO-data=6548 RW-data=92 ZI-data=12436  
+Program Size: Code=8596 RO-data=6548 RW-data=92 ZI-data=12436  
 "Project2.axf" - 0 Error(s), 4 Warning(s).
 Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
@@ -423,7 +79,7 @@ main.c(209): warning:  #61-D: integer operation result is out of range
 main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
 main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
 linking...
-Program Size: Code=8484 RO-data=6548 RW-data=92 ZI-data=12436  
+Program Size: Code=8596 RO-data=6548 RW-data=92 ZI-data=12436  
 "Project2.axf" - 0 Error(s), 4 Warning(s).
 Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
@@ -436,155 +92,7 @@ main.c(209): warning:  #61-D: integer operation result is out of range
 main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
 main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
 linking...
-Program Size: Code=8484 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9060 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9060 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9064 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9032 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=8484 RO-data=6548 RW-data=92 ZI-data=12436  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9060 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Build target 'Target 1'
-linking...
-Program Size: Code=9060 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 0 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9028 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-main.c(26): warning:  #550-D: variable "ledState" was set but never used
-linking...
-Program Size: Code=9000 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9024 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9036 RO-data=6548 RW-data=100 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 4 Warning(s).
-Load "N:\\mte241\\Project2\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-main.c(42): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(209): warning:  #61-D: integer operation result is out of range
-main.c(209): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(225): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-linking...
-Program Size: Code=9068 RO-data=6548 RW-data=100 ZI-data=12484  
+Program Size: Code=8596 RO-data=6548 RW-data=92 ZI-data=12436  
 "Project2.axf" - 0 Error(s), 4 Warning(s).
 Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
@@ -599,6 +107,10 @@ main.c(225): warning:  #167-D: argument of type "char *" is incompatible with pa
 linking...
 Program Size: Code=9172 RO-data=6548 RW-data=100 ZI-data=12484  
 "Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\mte241\\Project2\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Load "N:\\mte241\\Project2\\Project2.AXF" 
 Erase Done.
 Programming Done.

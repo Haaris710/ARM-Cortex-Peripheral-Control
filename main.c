@@ -305,7 +305,7 @@ __task void init_tasks(void) {
 int main(void) {
 	SystemInit();
 
-	ledDisplay(0);
+	ledDisplay(123);
 	while(1);
 }
 */
@@ -346,10 +346,11 @@ int main(void) {
 /*
 //LCD TEST
 int main(void) {
-	char hello[12] = "Hello World";
+	char* string  = "Hello World";
 	SystemInit();
+	lcdInit();
 	
-	lcdDisplay(hello);
+	lcdDisplay(string, 1);
 }
 */
 
@@ -363,7 +364,7 @@ int main(void) {
 */
 
 
-//TASKS IMPLEMENTATION
+//TASKS IMPLEMENTATION TEST
 int main(void) {
 	printf("Task Implementation Test");
 	SystemInit();
